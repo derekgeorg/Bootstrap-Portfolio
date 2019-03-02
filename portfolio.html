@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <title>Portfolio | Derek Georg</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style>
+      /* main footer style */
+    .footer {
+    font-size: 15px;
+    padding: 20px;
+    color: lightgray;
+    text-align: center;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+    /* body background image style */
+    body {
+        background: url('https://www.toptal.com/designers/subtlepatterns/patterns/absurdidad.png');
+        margin-bottom: 100px;
+    }
+    /* main container style */
+    .container {
+    border-radius: 20px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    }
+    /* card-title style */
+    .card-title {
+      color: white;
+      text-align: center;
+      font-family: 
+    }
+    /* all cards with images will have same style */
+    .card {
+      background-color: #4aaaa5;
+      margin-bottom: 20px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 20px;
+    }
+    </style>
+</head>
+<body>
+<!--This nav bar will appear on all pages and included About Me, Portfolio and Contact lnks-->  
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">Derek Georg</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+        </nav>
+        <br> 
+    </div> 
+<!--individual container for Portfolio h1-->    
+    <div class="container">
+      <div class="row">
+        <h1>Portfolio</h1>
+      </div>
+    </div>
+<!--main container will include three rows. Rows 1 & 2 have two columns. Row 3 has one column.-->
+    <div class="container" style="background-color: #dedede;">
+      <div class="row" style="margin-bottom: 20px">
+        <div class="col-md-6">
+          <div class="card" style="width: 18rem;">
+              <img src="images/technics-q-c-640-480-1.jpg" class="card-img-top" alt="dude with ipad">
+              <div class="card-body">
+                <h5 class="card-title">Word Guess</h5>
+              </div>
+          </div>      
+        </div>
+        <div class="col-md-6">
+          <div class="card" style="width: 18rem;">
+              <img src="images/technics-q-c-640-480-2.jpg" class="card-img-top" alt="turntable">
+              <div class="card-body">
+                <h5 class="card-title">RPG Game</h5>
+              </div>
+          </div>
+        </div>
+      </div>      
+      <div class="row" style="margin-bottom: 20px">
+          <div class="col-md-6">
+              <div class="card" style="width: 18rem;">
+                  <img src="images/technics-q-c-640-480-5.jpg" class="card-img-top" alt="earbuds">
+                  <div class="card-body">
+                    <h5 class="card-title">Trivia Game</h5>
+                  </div>
+              </div>   
+          </div>
+          <br>
+          <div class="col-md-6">
+              <div class="card" style="width: 18rem;">
+                  <img src="images/technics-q-c-640-480-7.jpg" class="card-img-top" alt="phone with earbuds">
+                  <div class="card-body">
+                    <h5 class="card-title">Rutgers Info Widget</h5>
+                  </div>
+              </div> 
+          </div>
+      </div>
+      <div class="row" style="margin-bottom: 20px">
+          <div class="col-md-6">
+            <div class="card" style="width: 18rem;">
+                  <img src="images/technics-q-c-640-480-9.jpg" class="card-img-top" alt="led monitor">
+                  <div class="card-body">
+                    <h5 class="card-title">Rock Paper Scissors</h5>
+                  </div>
+            </div>  
+          </div>
+      </div>
+    </div>
+
+<!--sticky footer for all pages-->
+    <footer class="footer">   
+           <p style="margin-top: -10px;">
+            Copyright &copy;.
+           </p>
+    </footer>
+</div>     
+
+</body>
+</html> 

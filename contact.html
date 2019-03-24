@@ -33,6 +33,11 @@
     padding: 30px;
     margin-right: auto;
     margin-left: auto;
+    width: 100%;
+    }
+
+    section {
+      margin-bottom: 100px;
     }
     </style>
 </head>
@@ -58,6 +63,7 @@
                 </div>
         </nav>
         <br>
+<section>
 <!--individual container for Contact h1-->           
         <div class="container">
             <div class="row">
@@ -66,26 +72,26 @@
           </div>    
 <!--this the container included the contact form fields: name, email, message and submit-->          
     <div class="container" style="background-color: #dedede">
-            <form>
-                    <div class="form-group">
-                            <div class="form-group">
-                                    <label for="formGroupExampleInput">Name</label>
-                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Doe">
-                            </div>
-                          </div>
-                          <div class="form-group">
-                                <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                              </div>          
-                    <div class="form-group">
-                      <label for="exampleFormControlTextarea1">Message</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      <br>
-                      <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                  </form>
-
-    </div>   
+      <form>
+              <div class="form-group" style="margin-bottom: 20px" >
+                <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Doe">
+                </div>
+              </div>
+                <div class="form-group">
+                      <label for="exampleFormControlInput1">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>          
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+        </form>
+    </div> 
+  </section>     
 <!--sticky footer for all pages-->     
     <footer class="footer">   
         <p style="margin-top: -10px;">

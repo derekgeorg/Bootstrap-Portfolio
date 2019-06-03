@@ -1,103 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About | Derek Georg</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About | Derek Georg</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <style>
     /* main footer design*/
     .footer {
-    font-size: 15px;
-    padding: 20px;
-    color: lightgray;
-    text-align: center;
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
-    height: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+      font-size: 15px;
+      padding: 20px;
+      color: lightgray;
+      text-align: center;
+      background-color: #666666;
+      border-top: 8px solid #4aaaa5;
+      height: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
     }
+
     /* background image link*/
     body {
-        background: url('https://www.toptal.com/designers/subtlepatterns/patterns/absurdidad.png');
-        margin-bottom: 100px;
+      background: url('https://www.toptal.com/designers/subtlepatterns/patterns/absurdidad.png');
+      margin-bottom: 100px;
     }
+
     /* paragram column for about me section */
     .col-m-9 {
       width: 100%;
       overflow: auto;
     }
+
     /* main content container */
     .container {
-    border-radius: 20px;
-    padding: 30px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
+      border-radius: 20px;
+      padding: 30px;
+      margin-right: auto;
+      margin-left: auto;
+      width: 100%;
     }
+
     /* derek thumbnail margins */
     img {
       margin-bottom: 10px;
       margin-top: 6px;
     }
-    </style>
+  </style>
 </head>
+
 <body>
-<!--This the navbar that will appear the same on all pages-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="index.html">Derek Georg</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-        </nav>
-        <br>
-<!--individual container for the About Me h1-->        
-        <div class="container">
-          <div class="row">
-                  <h1>About Me</h1> 
-          </div> 
-        </div> 
-<!--main container for image and paragraph-->    
-        <div class="container" style="background-color: #dedede;">   
-            <div class="row">  
-                    <div class="col-md-3">
-                        <img src="images/derek.png" alt="Derek Georg" style="width: 100%" class="thumbnail_image">
-                    </div>    
-                    <div class="col-md-9">
-                      <p>Full Stack Web Developer and experienced IT Professional with a history of implementing technology system solutions for small, medium and enterprise organizations.</p>
-        
-                        I’m looking to combine my passion for business and emerging technologies to grow within my field.</p>
-                        
-                        I completed the Full-Stack Web Development bootcamp at UT Austin where I expanded my skills in front-end development.</p>
-                       </p> 
-                    </div>               
-            </div> 
-        </div>   
-<!--This sticky footer should apear at the bottom of all pages-->         
-        <footer class="footer">   
-            <p style="margin-top: -10px;">
-             Copyright &copy;.
-            </p>
-     </footer>
-        </div>           
+  <!--This the navbar that will appear the same on all pages-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Derek Georg</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <!--individual container for the About Me h1-->
+  <div class="container">
+    <div class="row">
+      <h1>About Me</h1>
+      <hr>
+    </div>
+  </div>
+  
+  <!--main container for image and paragraph-->
+  <div class="container" style="background-color: #dedede;">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="images/derek.png" alt="Derek Georg" style="width: 100%" class="thumbnail_image">
+      </div>
+      <div class="col-md-9">
+        <p>My name is Derek Georg. I'm a junior full stack web developer with 5+ years of experience leading in an IT Management and Executive role.</p>
+
+        <p>In January 2019, I decided to make a pivot in my career and deepen my knowledge of web technologies by enrolling in the Coding Boot Camp at The University of Texas - Austin. </p>
+
+        <p>This 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, JavaScript, JQuery, Bootstrap, Firebase, NodeJS, MySQL, MongoDB, Express, Handlebars.JS and ReactJS. </p>
+
+        <p>In my previous position as Chief Systems Officer, I led the digital transformation of a mobile healthcare organization. My team and I introduced cloud-based applications and strategies to increase operational productivity and business continuity. I now aim to combine my prior experience and knowledge with my new technical skill set to further my passion of impacting the workforce of the future through innovative technology solutions.</p>
+
+        <p>I am an enthusiastic learner with interests in technology trends across multiple industries, including business, education, healthcare, media and marketing. </p>
+
+        <p>My current study interests include ReactJS, React 360, ServiceNow and Google Cloud Platform. </p>
+
+        <p>My hobbies include photography and videography with drones (DJI Phantom 4 Advance), 360° cameras (Samsung Gear 360) and the newest mobile devices (Google Pixel and Samsung Galaxy). I also enjoy serving my community as Vice President on our local elementary's PTA Executive Board.</p>
+      </div>
+    </div>
+  </div>
+  <!--This sticky footer should apear at the bottom of all pages-->
+  <footer class="footer">
+    <p style="margin-top: -10px;">
+      Copyright &copy;.
+    </p>
+  </footer>
+  
 </body>
+
 </html>

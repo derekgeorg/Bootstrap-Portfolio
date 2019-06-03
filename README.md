@@ -27,7 +27,7 @@ Working with Bootstraps predefined classes
 ## PORTFOLIO
 Because this was just our second assignment the projects listed on the *Portfolio* page don't link anywhere. Rather than updating this Portfolio site with actual projects, I recreated the entire site later.
 
-![portfolio](/images/porfolio.png)
+![portfolio](/images/portfolio.png)
 
 ## CONTACT
 

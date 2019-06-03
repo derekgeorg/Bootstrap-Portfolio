@@ -9,6 +9,7 @@ We were tasked with taking our previous Portfolio page made with only HTML and C
 
 ### Learned:
 Bootstrap Grid System - Col/Row
+Responsive layout and images
 Linking Bootstrap CDNs
 Working with Bootstraps predefined classes
 

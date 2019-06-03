@@ -8,10 +8,10 @@ This project was our second assignment of the *UT Austin Coding Boot Camp*.
 We were tasked with taking our previous Portfolio page made with only HTML and CSS and implement Bootstrap styling to it.
 
 ### Learned:
-Bootstrap Grid System - Col/Row
-Responsive layout and images
-Linking Bootstrap CDNs
-Working with Bootstraps predefined classes
+* Bootstrap Grid System - Col/Row
+* Responsive layout and images
+* Linking Bootstrap CDNs
+* Working with Bootstraps predefined classes
 
 ### All pages are composed of:
 * A Bootstrap Navbar with logo/name and links to About, Porfolio and Contact to navigate website
